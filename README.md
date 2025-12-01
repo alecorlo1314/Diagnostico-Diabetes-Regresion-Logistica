@@ -56,3 +56,9 @@ Se importan las librerías necesarias (`pandas`, `numpy`, `matplotlib`, `seaborn
     *   **Classification Report:** Se obtuvo un reporte detallado con Precision, Recall y F1-score para ambas clases, mostrando un rendimiento equilibrado (Precision ~0.76, Recall ~0.76).
 *   **Curva ROC y Área Bajo la Curva (AUC):** Se calculó y graficó la curva ROC, obteniendo un AUC de 0.83, lo que indica una buena capacidad de discriminación del modelo.
 *   **Optimización del Umbral:** Se experimentó con un umbral de clasificación ajustado a `0.41`. Con este umbral, la precisión para 'Sin diabetes' fue 0.80 y el recall 0.67; para 'Con diabetes', la precisión fue 0.71 y el recall 0.83. Esto muestra un compromiso entre falsos positivos y falsos negativos que podría ser deseable dependiendo del contexto de la aplicación.
+
+# Fuentes utilizadas
+Raschka, S., Liu, Y., & Mirjalili, V. (2023). Machine Learning con PyTorch y Sckit-Learn.
+McKee, A. (2024, September 11). Guía para principiantes sobre limpieza de datos en Python. https://www.datacamp.com/es/tutorial/guide-to-data-cleaning-in-python
+Pykes, K. (2025, January 16). Preprocesamiento de datos: Una guía completa con ejemplos en Python. https://www.datacamp.com/es/blog/data-preprocessing
+Navlani, A. (2024, April 25). Comprender la regresión logística en el tutorial de Python. https://www.datacamp.com/es/tutorial/understanding-logistic-regression-python
