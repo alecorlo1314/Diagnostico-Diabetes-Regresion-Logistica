@@ -5,9 +5,9 @@ Este proyecto tiene como objetivo desarrollar un modelo de clasificación capaz 
 ### 1. Entendimiento del Problema
 
 *   **Variable Objetivo:** `label` (Diabetes: 1, No Diabetes: 0).
-*   **Características Clave:** `glucose`, `insulin`, `bmi`, `age`.
+*   **Características Clave: `glucose`, `insulin`, `bmi`, `age`.
 *   **Tipo de Problema:** Clasificación binaria.
-*   **Impacto del Modelo:** Proporcionar una probabilidad de diabetes, útil para la detección temprana y la intervención.
+*   **Impacto del Modelo:** Proporcionar una probabilidad de diabetes, que es importante para que los medicos puedan detectarla temprenamente e intervenirla.
 *   **Métricas Importantes:** Accuracy, Precision, Recall, y ROC AUC, para evaluar el rendimiento del modelo.
 *   **Restricciones:** Posibilidad de datasets pequeños o inconsistentes.
 
